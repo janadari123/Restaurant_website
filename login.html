@@ -1,0 +1,91 @@
+<html>
+
+<head>
+  <style>
+  	.colorchange{
+	animation: colorchange 1s infinite;
+	}
+
+  	@keyframes colorchange{
+	0%{color: blue;}
+	25%{color: red;}
+	50%{color: white;}
+	100%{color: #bf55ec;}
+  </style>
+
+  <title>Login</title>
+</head>
+
+<body>
+    <header>
+	    <a href="#"><img class="logo" src="images/img/logo.png" alt="Sri Lankan traditional Restaurant Logo"/></a>
+		<nav>
+			<ul>
+				<li><a href="./home.html">Home</a></li>
+				<li><a href="./login.html">Login</a></li>
+				<li><a href="./about.html">About Us</a></li>
+				<li><a href="./menu.html">Menu</a></li>
+				<li><a href="./events.html">Events</a></li>
+				<li><a href="./contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+    </header>
+	<img src="images/img/events2.jpeg" width="600" height="400" alt="natural"/>
+
+	<form action="action-page.php"
+
+	style="border:1px solid#css">
+
+	<h1><align="center"><span class="colorchange">CREATE ACCOUNT IN GAMI RAHA RESTAURANT.LK</span></h1>
+
+	<p><h3>PLEASE FILL THE INFORMATION BELOW.</h3></p>
+
+	<hr>
+
+
+	<section class="contact">
+		<div id="form-main">
+		<form id="frm1" action="/action_page.php">
+ 			 E-mail: <input type="text" name="name"><br><br>
+ 			 Password: <input type="text" name="email"><br><br>
+ 			 Repeat Password: <input type="text" name="comment">
+  			<input type="button" onclick="myFunction()" value="CANCEL">
+  			<input type="button" onclick="myFunction()" value="SING UP">
+		</form>
+
+		<script>
+			function myFunction() {
+ 			 document.getElementById("frm1").submit();
+				}
+		</script>
+
+	<p> by creating an account you agree to our <a href="#"
+
+	style="color:dodgerblue">terms & privacy</a>.</p>
+
+	</div>
+</section>
+
+	<footer>
+		<div class="wrapper">
+			<div class="rights">
+				<p>All Rights Reserved 2020 - Gami Raha Restaurant</p>
+			</div>
+
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="./login.html">Login</a></li>
+					<li><a href="./about.html">About Us</a></li>
+					<li><a href="./menu.html">Menu</a></li>
+					<li><a href="./events.html">Events</a></li>
+					<li><a href="./contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>		
+	</footer>
+
+</body>
+
+</html>
+

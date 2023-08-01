@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+  	.colorchange{
+	animation: colorchange 1s infinite;
+	}
+
+  	@keyframes colorchange{
+	0%{color: blue;}
+	25%{color: red;}
+	50%{color: white;}
+	100%{color: #bf55ec;}
+  	</style>
+  	
+	<title>Welcome to Gami Raha Restaurant</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<section>
+		<header>
+			<a href="#"><img class="logo" src="images/img/logo.jpeg" alt="Sri Lankan traditional Restaurant Logo"/></a>
+			<nav>
+				<ul>
+					<li><a href="./home.html">Home</a></li>
+					<li><a href="./login.html">Login</a></li>
+					<li><a href="./about.html">About Us</a></li>
+					<li><a href="./menu.html">Menu</a></li>
+					<li><a href="./events.html">Events</a></li>
+					<li><a href="./contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<form action="action-page.php"
+
+		style="border:1px solid#css">
+
+		<h1><align="center"><span class="colorchange">CONTACTS OF GAMI RAHA RESTAURANT</span></h1>
+			<h1>Come talk to us</h1>
+			<p>We always value your words.</p>
+			<hr>
+		
+	</section>
+
+	<section class="services wrapper">
+		<ul class="clearfix">
+			<li class="animated wow fadeInDown"  data-wow-delay=".2s">
+				<img class="icon" src="images/img/icon2.jpeg" alt=""/>
+				<span class="separator"></span>
+				<h2>How to reach us:</h2>
+				<p>Phone No. 0573573854</p>
+				<p>Fax:           001001717</p>
+				<p>House No. 07 Road. Badulla Block. 2nd cross street.</p>
+			</li>
+		</ul>
+	</section>
+
+	<section class="contact">
+		<div id="form-main">
+		<form id="frm1" action="/action_page.php">
+ 			 Name: <input type="text" name="name"><br><br>
+ 			 E-mail: <input type="text" name="email"><br><br>
+ 			 Comment: <input type="text" name="comment">
+  			<input type="button" onclick="myFunction()" value="SEND">
+		</form>
+
+		<script>
+			function myFunction() {
+ 			 document.getElementById("frm1").submit();
+				}
+		</script>
+		   
+		</div>
+	</section>
+	
+	<footer>
+		<div class="wrapper">
+			<div class="rights">
+				<p>All Rights Reserved 2020 - Gami Raha Restaurant</p>
+			</div>
+
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="./login.html">Login</a></li>
+					<li><a href="./about.html">About Us</a></li>
+					<li><a href="./menu.html">Menu</a></li>
+					<li><a href="./events.html">Events</a></li>
+					<li><a href="./contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>		
+	</footer>
+</body>
+</html>
+
+	
+
+
+	
+
+
